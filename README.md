@@ -1,5 +1,6 @@
 # Build Docker Images
 To build the code run the following maven command.  This command will execute the [Spotify docker plugin](https://github.com/spotify/docker-maven-plugin) defined in the pom.xml file.  
+   
    **mvn clean package docker:build**
 
 # Running the services
